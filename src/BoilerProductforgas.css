@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply the font to the body or any other elements */
+/* body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(245 250 253) !important;
+} */
+.widthofcontainer {
+  padding: 40px !important;
+  max-width: 1300px !important;
+  background-color: white !important;
+}
+.navbar {
+  justify-content: center;
+  background-color: white;
+  box-shadow: 5px 5px 5px #eee8e8;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand img {
+  width: 192px;
+  height: 70px;
+  object-fit: contain;
+}
+.jss11007 {
+  max-width: 1300px;
+}
+
+.forflex-div {
+  gap: 40px;
+}
+.btn1 {
+  background-color: #4ba4a1;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+  width: 148px;
+}
+.btn1:hover {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+.justnumber {
+  width: 33%;
+}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50% !important;
+  text-align: center !important;
+}
+.jss20 {
+  color: white;
+  margin-left: -76.6px;
+  margin-bottom: 30px;
+  padding: 8px 32px 8px 12px;
+  border-radius: 4px;
+  background-color: #4ba4a1;
+  width: 240px;
+  clip-path: polygon(0%, 0%, 0%, 100%, 100%, 100%);
+  /* transform: rotate(180deg); */
+  /* background-color: #6d4c41; */
+}
+.carousel-indicators {
+  bottom: -73px !important;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: black !important;
+}
+.carousel-indicators .active {
+  background-color: #3a3535 !important;
+}
+
+.forimg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.startChallengeTidy {
+  text-transform: uppercase;
+  font-family: Helvetica;
+  padding: 15px 15px 11px 15px;
+  background: #4ba4a1;
+  border-radius: 15px;
+  font-weight: 900;
+  border: none;
+  box-shadow: 0 2px 1px 1px black;
+  transition: 275ms all;
+  letter-spacing: 1px;
+}
+.startChallengeTidy:hover {
+  background: #4ba4a1;
+  letter-spacing: 2px;
+  box-shadow: 0 9px 1px 1px black;
+}
+.startChallengeTidy:active {
+  background: #4ba4a1;
+}
